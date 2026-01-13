@@ -21,7 +21,7 @@
   }
 
   function escapeRegExp(str) {
-    return str.replace(/[.*+?^${}()|[]\]/g, '\\\$&');
+    return str.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
   }
 
   function initBurgerMenu() {
